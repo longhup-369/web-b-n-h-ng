@@ -1,0 +1,353 @@
+!DOCTYPE html
+html lang=vi
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleÁo Sơ Mi Chấm Bi Cao Cấp - Giảm Giá 40%title
+    link rel=stylesheet href=cssstyle.css
+    link rel=stylesheet href=httpscdnjs.cloudflare.comajaxlibsfont-awesome6.0.0-beta3cssall.min.css
+head
+body
+    !-- Header với thông tin khuyến mãi --
+    header class=promo-banner
+        pMùa Hè Năng Động - Ưu Đãi Cực Hot! Giảm đến 40%!p
+    header
+
+    !-- Khu vực sản phẩm chính --
+    main class=product-container
+        section class=product-images
+            div class=main-image
+                img src=imagesproduct1.jpg alt=Áo Sơ Mi Chấm Bi id=mainProductImage
+            div
+            div class=thumbnail-images
+                img src=imagesproduct1.jpg alt=Áo Sơ Mi Chấm Bi - Mặt trước onclick=changeImage(this.src)
+                img src=imagesproduct2.jpg alt=Áo Sơ Mi Chấm Bi - Mặt sau onclick=changeImage(this.src)
+            div
+        section
+
+        section class=product-info
+            h1Áo Sơ Mi NamNữ Chấm Bi Thanh Lịchh1
+            
+            div class=rating
+                span class=stars★★★★★span
+                span class=rating-value4.9span
+                span class=reviews(1920 đánh giá)span
+            div
+            
+            div class=sales-info
+                span class=soldĐã bán 12k+span
+                span class=free-shippingMiễn phí vận chuyểnspan
+            div
+            
+            div class=price
+                span class=original-price360.000đspan
+                span class=discounted-price235.000đspan
+                span class=discount-percent-40%span
+            div
+            
+            div class=promo-badge
+                pƯU ĐÃI HẤP DẪN - CHỈ TRONG HÔM NAYp
+                p+ Giá ưu đãi 235.000đ (Giá gốc 360.000đ)p
+            div
+            
+            div class=shipping-info
+                pi class=fas fa-trucki Miễn phí vận chuyển cho đơn từ 300.000đp
+                pi class=fas fa-check-circlei Nhận hàng - Kiểm tra - Ứng ý mới thanh toánp
+            div
+            
+            div class=color-selection
+                h3Màu sắch3
+                div class=color-options
+                    button class=color-option white active data-color=Trắng chấm bi đenbutton
+                    button class=color-option blue data-color=Xanh navy chấm bi trắngbutton
+                    button class=color-option pink data-color=Hồng pastel chấm bi trắngbutton
+                div
+            div
+            
+            div class=size-selection
+                h3Kích cỡh3
+                div class=size-options
+                    button class=size-optionSbutton
+                    button class=size-option activeMbutton
+                    button class=size-optionLbutton
+                    button class=size-optionXLbutton
+                div
+                
+                div class=size-guide
+                    h4BẢNG SIZE ÁOh4
+                    table
+                        tr
+                            thSizeth
+                            thNgực (cm)th
+                            thDài áo (cm)th
+                            thChiều caoth
+                            thCân nặngth
+                        tr
+                        tr
+                            tdStd
+                            td48td
+                            td68td
+                            td1m60 - 1m70td
+                            td50 - 60kgtd
+                        tr
+                        tr
+                            tdMtd
+                            td50td
+                            td70td
+                            td1m70 - 1m75td
+                            td60 - 70kgtd
+                        tr
+                        tr
+                            tdLtd
+                            td52td
+                            td72td
+                            td1m75 - 1m80td
+                            td70 - 80kgtd
+                        tr
+                        tr
+                            tdXLtd
+                            td54td
+                            td74td
+                            td1m80 - 1m85td
+                            td80 - 90kgtd
+                        tr
+                    table
+                    pForm áo Regular fit vừa vặn - Nếu bạn thích mặc ôm, có thể chọn nhỏ hơn 1 size.p
+                div
+            div
+            
+            div class=quantity
+                h3Số lượngh3
+                div class=quantity-selector
+                    button class=qty-minus-button
+                    input type=number value=1 min=1
+                    button class=qty-plus+button
+                div
+            div
+            
+            div class=shipping-time
+                pi class=fas fa-calendar-alti Ngày giao hàng dự kiến 2-5 ngày kể từ ngày đặt đơnp
+            div
+            
+            div class=return-policy
+                pi class=fas fa-exchange-alti Trả hàng trong vòng 7 ngày - Hủy đơn dễ dàng - Hoàn hàng miễn phíp
+            div
+            
+            div class=action-buttons
+                button class=add-to-cartThêm vào giỏ hàngbutton
+                button class=buy-nowMua ngaybutton
+            div
+        section
+    main
+
+    !-- Mô tả sản phẩm --
+    section class=product-description
+        h2Giới thiệu về sản phẩmh2
+        
+        div class=description-content
+            h3Áo Sơ Mi NamNữ Chấm Bi Thanh Lịchh3
+            
+            h41. Thiết Kế Thời Trangh4
+            ul
+                liKiểu dáng cổ điển phối hợp chấm bi trẻ trung, phù hợp cả nam và nữli
+                liForm dáng Regular fit vừa vặn, tôn dáng người mặcli
+                liCổ áo thiết kế chuẩn, đường may tỉ mỉli
+                liChấm bi được in bền màu, không phai sau nhiều lần giặtli
+            ul
+            
+            h42. Chất Liệu Cao Cấph4
+            ul
+                liVải cotton 100% mềm mại, thoáng khíli
+                liĐộ dày vải 150gsm, phù hợp mặc quanh nămli
+                liKhả năng thấm hút mồ hôi tốtli
+                liĐường may chắc chắn, bền đẹp theo thời gianli
+            ul
+            
+            h43. Cam Kết Từ Chúng Tôih4
+            ul
+                liGiao hàng nhanh 24h tại khu vực hỗ trợli
+                liFreeship toàn quốc theo chính sách shopli
+                liĐổi trả miễn phí nếu sản phẩm lỗi hoặc sai mô tảli
+                liTư vấn 247 - luôn sẵn sàng hỗ trợli
+            ul
+            
+            h44. Chính Sách Đổi Trảh4
+            ul
+                liĐổi sizemàu trong vòng 7 ngày từ lúc nhận hàngli
+                liSản phẩm phải còn nguyên tem, chưa giặt, chưa sử dụngli
+                liMỗi đơn chỉ hỗ trợ 1 lần đổi duy nhấtli
+                liKhách tự chịu phí ship 2 chiều khi đổi màu hoặc đổi sizeli
+            ul
+        div
+    section
+
+    !-- Đánh giá khách hàng --
+    section class=customer-reviews
+        h2Đánh giá của khách hàng (1920 bình luận)h2
+        
+        div class=review
+            div class=review-header
+                span class=reviewer-nameThanh Hằngspan
+                span class=review-date25062023span
+                span class=review-rating★★★★★span
+            div
+            div class=review-content
+                pMình mua 3 cái được giảm giá còn 180káo, chất lượng quá xứng đáng với giá. Còn được freeship nữa!p
+            div
+        div
+        
+        div class=review
+            div class=review-header
+                span class=reviewer-nameMinh Tríspan
+                span class=review-date18062023span
+                span class=review-rating★★★★★span
+            div
+            div class=review-content
+                pÁo đẹp, form vừa vặn mặc lên trẻ hẳn ra. Mình cao 1m75, nặng 68kg mặc size L là vừa đẹp luôn!p
+            div
+        div
+        
+        div class=review
+            div class=review-header
+                span class=reviewer-nameKhánh Linhspan
+                span class=review-date12062023span
+                span class=review-rating★★★★☆span
+            div
+            div class=review-content
+                pMình nặng 52kg mặc size S hơi rộng, phù hợp với ai thích form rộng thoải mái. May mà shop hỗ trợ đổi size cực nhanh, dịch vụ rất chuyên nghiệp!p
+            div
+        div
+        
+        button class=view-all-reviewsXem thêm đánh giábutton
+    section
+
+    !-- Form đặt hàng --
+    section class=order-form
+        h2Đặt hàng ngayh2
+        
+        form id=checkoutForm
+            div class=form-group
+                label for=fullNameHọ và tênlabel
+                input type=text id=fullName name=fullName required
+            div
+            
+            div class=form-group
+                label for=phoneSố điện thoạilabel
+                input type=tel id=phone name=phone required
+            div
+            
+            div class=form-group
+                label for=provinceTỉnhThành phốlabel
+                select id=province name=province required
+                    option value=Chọn TỉnhTPoption
+                    !-- Các tỉnh thành sẽ được thêm bằng JS --
+                select
+            div
+            
+            div class=form-group
+                label for=districtQuậnHuyệnlabel
+                select id=district name=district required
+                    option value=Chọn QuậnHuyệnoption
+                select
+            div
+            
+            div class=form-group
+                label for=wardPhườngXãlabel
+                select id=ward name=ward required
+                    option value=Chọn PhườngXãoption
+                select
+            div
+            
+            div class=form-group
+                label for=addressĐịa chỉ cụ thểlabel
+                input type=text id=address name=address required
+            div
+            
+            div class=form-group
+                label for=noteGhi chú (Size, màu cụ thể)label
+                textarea id=note name=note rows=3textarea
+            div
+            
+            div class=payment-method
+                h3Hình thức thanh toánh3
+                div class=payment-options
+                    label
+                        input type=radio name=payment value=cod checked
+                        spanThanh toán bằng tiền mặt (COD)span
+                    label
+                    label
+                        input type=radio name=payment value=bank
+                        spanChuyển khoản ngân hàngspan
+                    label
+                    label
+                        input type=radio name=payment value=momo
+                        spanVí điện tử MoMospan
+                    label
+                div
+            div
+            
+            div class=order-summary
+                h3Tóm tắt đơn hàngh3
+                div class=summary-item
+                    spanÁo Sơ Mi Chấm Bi x1span
+                    span235.000đspan
+                div
+                div class=summary-item
+                    spanPhí vận chuyểnspan
+                    span22.000đspan
+                div
+                div class=summary-total
+                    spanTổng cộngspan
+                    span257.000đspan
+                div
+            div
+            
+            button type=submit class=submit-orderĐặt hàngbutton
+        form
+    section
+
+    !-- Footer --
+    footer class=site-footer
+        div class=footer-content
+            div class=footer-logo
+                img src=imageslogo.png alt=Logo Áo Sơ Mi Chấm Bi
+                pThời trang công sở thanh lịchp
+            div
+            
+            div class=footer-contact
+                h3Liên hệh3
+                pi class=fas fa-map-marker-alti Địa chỉ 123 Đường ABC, Quận 1, TP.HCMp
+                pi class=fas fa-phonei Hotline 0909123456p
+                pi class=fas fa-envelopei Email aosomichambi@gmail.comp
+            div
+            
+            div class=footer-links
+                h3Liên kếth3
+                ul
+                    lia href=#Trang chủali
+                    lia href=#Sản phẩmali
+                    lia href=#Giới thiệuali
+                    lia href=#Chính sách đổi trảali
+                    lia href=#Hướng dẫn mua hàngali
+                ul
+            div
+            
+            div class=footer-social
+                h3Theo dõi chúng tôih3
+                div class=social-icons
+                    a href=#i class=fab fa-facebookia
+                    a href=#i class=fab fa-instagramia
+                    a href=#i class=fab fa-tiktokia
+                    a href=#i class=fab fa-youtubeia
+                div
+            div
+        div
+        
+        div class=footer-bottom
+            p&copy; 2023 Áo Sơ Mi Chấm Bi. All Rights Reserved.p
+        div
+    footer
+
+    script src=jsscript.jsscript
+body
+html
